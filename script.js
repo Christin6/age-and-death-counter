@@ -87,9 +87,9 @@ function calculateDeath(ageInput, monthInput, dateInput, gender) {
 function getData() {
     let data = [];
 
-    alert("Hi! Now we will give you several questions. Please read them carefully and answer according the instruction. Thanks :)");
+    alert("Hi! I will ask you several questions. Please read them carefully and answer according to the instruction. Thanks :)");
     let yearInput = prompt("What year were you born? (example: 1985) ");
-    let monthInput = prompt("What month were you born? (please answer in the number of month, for example, If you were born in february, you will write: 2) ");
+    let monthInput = prompt("What month were you born? (please answer in the number of the month, for example, if you were born in february, write: 2) ");
     let dateInput = prompt("What date were you born? (example: 31) ");
     let genderInput = prompt("Are you a female or a male? (example: male) ")
 
